@@ -13,7 +13,7 @@ To run RandomUnsplash locally, follow these steps:
 1. **Clone the Repository**: Clone the RandomUnsplash repository from GitHub to your local machine.
 
    ```bash
-   git clone https://github.com/yourusername/randomunsplash.git
+   git clone https://github.com/lukasklockenhoff/randomunsplash.git
    ```
 
 2. **Build the Application**: Build the application using a C++ compiler (e.g., g++) along with the Qt library. Make sure you have Qt installed on your system.
