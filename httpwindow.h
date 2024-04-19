@@ -64,10 +64,8 @@ public:
 
     /**
      * Starts a new download request
-     *
-     * @param requestedUrl The URL of the file to download
      */
-    void startRequest(const QUrl &requestedUrl);
+    void startRequest();
 
 private slots:
     /**

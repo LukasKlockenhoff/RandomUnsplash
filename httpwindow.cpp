@@ -76,7 +76,7 @@ HttpWindow::HttpWindow(QWidget *parent)
 
 HttpWindow::~HttpWindow() = default;
 
-void HttpWindow::startRequest(const QUrl &requestedUrl)
+void HttpWindow::startRequest()
 {
     QString qString = fileNameLineEdit->text();
 
@@ -163,7 +163,7 @@ void HttpWindow::downloadFile()
     downloadButton->setEnabled(false);
 
     // schedule the request
-    startRequest(newUrl);
+    startRequest();
 }
 
 std::unique_ptr<QFile> HttpWindow::openFileForWrite(const QString &fileName)
