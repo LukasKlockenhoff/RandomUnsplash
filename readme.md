@@ -20,8 +20,7 @@ To run RandomUnsplash locally, follow these steps:
 
    ```bash
    cd randomunsplash
-   qmake
-   make
+   ./build/Qt_6_7_0_for_macOS-Debug/http.app/Contents/MacOS/http
    ```
 
 3. **Run the Application**: Execute the compiled executable to launch the RandomUnsplash application.
