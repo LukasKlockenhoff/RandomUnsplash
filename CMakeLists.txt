@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 project(RandomUnsplash LANGUAGES CXX)
 
 if(NOT DEFINED INSTALL_DIR)
-    set(INSTALL_DIR "examples")
+    set(INSTALL_DIR ".")
 endif()
 
 set(INSTALL_EXAMPLEDIR "${INSTALL_DIR}/RandomUnsplash")
